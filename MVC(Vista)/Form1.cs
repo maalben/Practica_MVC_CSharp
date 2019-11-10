@@ -151,5 +151,12 @@ namespace MVC_Vista_
             txtnombrepais.Clear();
             txtnombrepais.Focus();
         }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Dispose();
+        }
     }
 }

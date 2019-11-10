@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Paises\PaisesDAO.cs" />
     <Compile Include="Paises\PaisesDTO.cs" />
+    <Compile Include="Participantes\ParticipantesDAO.cs" />
+    <Compile Include="Participantes\ParticipantesDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,5 +53,6 @@
       <Name>MODELO</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
